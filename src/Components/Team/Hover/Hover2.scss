@@ -114,8 +114,8 @@ $color-box-7 : #de8b3e;
     }
     
     &__rect-1 {
-      background:#fff;
-      width: 150px;
+      background: #fff;
+      width: 200px;
       height: 110px;
       transform: skewX(-20deg);
       display: block;
@@ -149,12 +149,12 @@ $color-box-7 : #de8b3e;
     
     &__rect-2 {
       width: 100px;
-      height: 60px;
+      height: 70px;
       background: #fff;
       position: absolute;
       top: 65%;
       left: 1000%;
-      opacity: .8;
+      opacity: .9;
       transform: skewX(-20deg);
       z-index: 8;
       transition: all .5s ease-in;
@@ -175,8 +175,8 @@ $color-box-7 : #de8b3e;
       &::after {
         content: '';
         display: block;
-        width: 60px;
-        height: 70px;
+        width: 50px;
+        height: 40px;
         background: $color-box-6;
         opacity: 1;
         position: absolute;
@@ -201,12 +201,12 @@ $color-box-7 : #de8b3e;
     }
     
     &__circle {
-      width: 200px;
-      height: 200px;
+      width: 220px;
+      height: 220px;
       border-radius: 50%;
       background: #fff;
       position: absolute;
-      top: -25%;
+      top: -15%;
       left: 50%;
       opacity: .9;
       transform: scale(0);

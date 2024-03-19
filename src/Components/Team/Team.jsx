@@ -6,6 +6,7 @@ import Navbar from '../Navbar/Navbar';
 import Footer2 from '../Footer/Footer2';
 
 import teamMembers from './Assets/all_product';
+
 const Team = () => {
   const renderTeamSection = (teamName, teamMembers) => (
     <section key={teamName} className="team-section">
